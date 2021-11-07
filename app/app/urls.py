@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+
+# Comentario de prueba
+
 urlpatterns = [
 
     path('',include(('bases.urls','bases'), namespace='bases')),
